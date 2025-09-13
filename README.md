@@ -1,11 +1,11 @@
-# Trotter_Simulation_of_Vibrational_Dynamics
-Preprint of manuscript:
+Code for simulating vibrational dynamics on quantum computers using Trotter approximation.
 
-Trotter simulation of vibrational Hamiltonians on a quantum computer 
+Reference to full manuscript : https://arxiv.org/abs/2508.11865.
 
-Authors:
-Shreyas Malpathak, Sangeeth Das Kallullathil, Ignacio Loaiza,
-Stepan Fomichev, Juan Miguel Arrazola, and Artur F. Izmaylov.
+For the Christiansen form, the following is available:
+1. Finding solvable fragments of the Hamiltonian using GFRo method (both in HO and VSCF basis, 4T and InfT Hamiltonians).
+2. Code to check error in eigenenergies for small molecules to set tolerance for fragmentation.
+3. Code to estimate T gate cost using perturbative estimate of Trotter error.
+4. Code to calculate IR spretrum.
 
-Note:
-The preprint is now available at: https://arxiv.org/abs/2508.11865
+The last two use modifications of vibrant package, which is implemented in Pennylane.
