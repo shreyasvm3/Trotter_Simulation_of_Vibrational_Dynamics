@@ -1,0 +1,5 @@
+Num. of qubits	 Trot r Normal	 Trot r Local	 T count Normal	  T count Local
+             12	             47	             10	      6.470e+08	      1.820e+08
+             16	              6	              6	      9.670e+07	      1.130e+08
+             24	             33	             26	      1.730e+09	      1.900e+09
+             36	             85	             35	      1.260e+10	      7.260e+09
