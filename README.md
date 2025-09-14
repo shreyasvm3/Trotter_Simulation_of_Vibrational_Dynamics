@@ -8,4 +8,4 @@ For the Christiansen form, the following is available:
 3. Code to estimate T gate cost using perturbative estimate of Trotter error.
 4. Code to calculate IR spretrum.
 
-The last two use modifications of vibrant package, which is implemented in Pennylane.
+The last two use modifications of vibrant package as implemented in Pennylane.
